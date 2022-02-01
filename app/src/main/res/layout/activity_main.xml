@@ -19,6 +19,66 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="openMap"
+        android:text="@string/button_openmap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:text="@string/button_openmap" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="openWeb"
+        android:text="@string/button_openweb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:text="@string/button_openweb" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="sendMail"
+        android:text="@string/button_sendmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:text="@string/button_sendmail" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="calendar"
+        android:text="@string/button_calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:text="@string/button_calendar" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="chooser"
+        android:text="@string/chooser_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:text="@string/chooser_title" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="0dp"

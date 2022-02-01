@@ -2,4 +2,9 @@
     <string name="app_name">My Application</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_Send">Send</string>
+    <string name="button_openmap">Open Map</string>
+    <string name="button_openweb">Open Web</string>
+    <string name="button_sendmail">Send Mail</string>
+    <string name="button_calendar">Calendar</string>
+    <string name="chooser_title">Chooser</string>
 </resources>
